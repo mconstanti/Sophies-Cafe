@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 1.4;
+  /*overflow: hidden;*/
+}
+
+/*Utility Classes*/
+.l-heading {
+  font-size: 4rem;
+  padding: .5rem;
+}
+
+.s-heading {
+  font-size: 2.5rem;
+  padding: .5rem;
+}
+
+/* Navbar */ 
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  background-color: #F2CB05;
+}
+
+#navbar .nav-logo{
+  font-size: 4rem;
+}
+
+#navbar .nav-logo span {
+  color: #6805F2;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li a {
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 600; 
+}
+
+#navbar ul li a:hover{
+  background-color: #05F29B;
+  border-radius: 20px;
+}
+
+#showcase {
+  background: url("../img/showcase-rachel-park-hrlvr2ZlUNk-unsplash.jpg") no-repeat center center/cover;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: color;
+}
+
+#showcase-content {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+/* About */
+
+#about {
+  padding: 2rem;
+  background-color: #F2CB05;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+#about .items{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#about .items .item {
+  display: flex;
+  align-items: center;
+  border-style: dotted;
+  border-color: #8245BF;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#about .items .item i {
+  padding-right: 2rem;
+  color: #6F04D9;
+}
+
+/* Who */
+
+#who {
+  display: flex;
+  color: #fff;
+  background-color: #333;
+}
+
+#who #who-image {
+  background: url("../img/who-image.jpg") no-repeat
+  center center/cover;
+  flex: 1;
+  flex-basis: 50%;
+}
+
+#who #who-text {
+  flex: 1;
+  flex-basis: 50%;
+  padding: 2rem;
+}
+
+#who #who-text h2 {
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+#who #who-text p {
+  font-size: 2rem;
+  padding: 0 2rem;
+  border-bottom: dotted;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+}
+
+#contact #contact-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2CB05;
+  color: #8245BF;
+}
+
+#contact #contact-info div {
+  border-style: dotted;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+#contact #contact-info p {
+  font-size: 2rem;
+}
+
+#contact #contact-info ul{
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+#contact #contact-map {
+  flex: 1;
+  background: url(../img/map.png) no-repeat center center/cover;
+  height: 300px;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #333;
+  padding: 2rem;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: white;
+}
+

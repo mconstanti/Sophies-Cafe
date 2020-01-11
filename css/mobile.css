@@ -4,10 +4,6 @@
   flex-direction: column;
 }
 
-#navbar ul li a:hover{
-  background-color: #F2CB05;
-}
-
 /* Who */
 #who #who-text p {
   font-size: 1.5rem;
@@ -26,6 +22,10 @@
   #navbar ul li a {
     padding: 0;
     font-size: 1rem;
+  }
+
+  #navbar ul li a:hover{
+    background-color: #F2CB05;
   }
   
   /*Showcase*/

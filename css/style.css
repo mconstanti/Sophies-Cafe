@@ -46,9 +46,13 @@ body {
   list-style: none;
 }
 
+/*#navbar ul li {
+  padding: .5rem .25rem;
+}*/
+
 #navbar ul li a {
   margin: 1rem;
-  padding: 1rem;
+  padding: .5rem 1rem;
   text-decoration: none;
   color: #333;
   font-size: 2rem;
